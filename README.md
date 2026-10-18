@@ -1,66 +1,55 @@
 # Pulkit Shrivastava
 
-### I audit data before I analyze it.
+## Most dashboards are confident lies. I check first.
 
-Data analyst in training (3rd-year B.Tech AI/ML, Bhopal). SQL, Python, Power BI.
-**Looking for a paid data analytics internship** (remote / hybrid / on-site).
+I'm a 3rd-year AI/ML student in Bhopal, and I'm obsessed with one question:
 
----
+**"Does this data deserve to be believed?"**
 
-## 🗂️ Case File #001: The dataset that lied
+Before I build a single chart, I try to break the data. Wrong labels, impossible patterns, numbers that look too clean. If it survives, I analyze it. If it doesn't, I'd rather tell you "this can't answer your question" than hand you a pretty chart that lies.
 
-I spent a month building a full analytics system on a 180,519-row supply chain dataset: requirements, star schema, PostgreSQL warehouse, 20 validation tests, 24 business questions.
-
-Then the evidence stopped adding up.
-
-| What the data claimed | What the evidence showed |
-|---|---|
-| Real business across many categories and markets | Profit margin sat at ~10-11% in **every** dimension I sliced |
-| Sensible product catalog | Golf balls were filed under "Electronics" |
-| Normal shipping behavior | Variance patterns that real logistics don't produce |
-| A continuous history | A sharp shift to synthetic data from October 2017 onward |
-
-So I changed the question from *"what does this say about the business?"* to *"what does the evidence say about the dataset?"*
-
-**Verdict:** 9 forensic findings (7 confirmed, 2 still open) and a 34-page report whose conclusion is *what this data can and cannot support*.
-
-👉 **[Open the case file → dataco-supply-chain-forensics](https://github.com/pulkitxc/dataco-supply-chain-forensics)**
+I've caught a "real" business dataset that turned out to be synthetic. The receipts are in the case files below.
 
 ---
 
-## 🧭 How I work
+## What you get when you work with me
 
-1. **Every dataset is a claim.** I check it before I trust it.
-2. **Raw stays raw.** I keep source data and analytical data separate, so every number can be traced back.
-3. **Say what the data can't support.** A confident chart on bad data is worse than no chart.
-
----
-
-## 🔎 More case files
-
-| Case | The question I asked | Finding / decision | Stack |
-|---|---|---|---|
-| [Bike Buyers](https://github.com/pulkitxc/europe-bike-sales-analytics) | Does income predict who buys a bike? | Barely (r = +0.05). Car ownership mattered far more (r = -0.20). | Excel |
-| [Data Professional Survey](https://github.com/pulkitxc/Data-Professional-Survey-Analytics) | Does higher pay mean happier data professionals? | Learning scored well, salary satisfaction lagged. | Power BI, DAX |
-| [Crypto Market Intelligence](https://github.com/pulkitxc/cryptocurrency-market-intelligence) | What does the API return that I actually need? | Split raw response from the analytical dataset before any charts. | Python, Pandas |
-| [Book Price Monitor](https://github.com/pulkitxc/book-price-monitor) | What if a scraper remembered its past runs? | History, price-change detection, email alerts without duplicates. | Selenium, BeautifulSoup |
-| [Layoffs SQL Analysis](https://github.com/pulkitxc/SQL-Exploratory-Data-Analysis-Layoffs-Dataset) | What do layoffs look like over time? | Cleaning, rolling totals, ranking with CTEs. | MySQL |
-| [World Population EDA](https://github.com/pulkitxc/world-population-demographic-eda) | Which growth stories hide behind the totals? | CAGR, density validation, countries in decline. | Pandas, Seaborn |
+- 🔍 **Skepticism by default.** Every dataset is a claim until it passes my tests.
+- 🧱 **Receipts.** Raw data stays raw, queries are documented, and every number traces back to its source.
+- ❓ **Question first, chart second.** If a visual doesn't answer something, it doesn't ship.
+- 🗣️ **Plain English.** If I can't explain a finding without jargon, I haven't understood it yet.
 
 ---
 
-## 🧰 Toolkit
+## Case files
 
-`SQL (PostgreSQL, MySQL)` · `Python` · `Pandas` · `NumPy` · `Matplotlib / Seaborn` · `Power BI + DAX` · `Excel` · `BeautifulSoup / Selenium` · `REST APIs` · `Jupyter`
+| Case | What it is | Stack |
+|---|---|---|
+| [dataco-supply-chain-forensics](https://github.com/pulkitxc/dataco-supply-chain-forensics) | Full analytics workflow on 180K rows, ending in a forensic audit of the dataset itself | PostgreSQL, Python |
+| [book-price-monitor](https://github.com/pulkitxc/book-price-monitor) | Scraper that stores price history, detects changes and sends email alerts | Selenium, BeautifulSoup |
+| [cryptocurrency-market-intelligence](https://github.com/pulkitxc/cryptocurrency-market-intelligence) | Market analysis built on the CoinGecko API | Python, Pandas, Matplotlib |
+| [Data-Professional-Survey-Analytics](https://github.com/pulkitxc/Data-Professional-Survey-Analytics) | Dashboard on survey responses from 630 data professionals | Power BI, DAX |
+| [europe-bike-sales-analytics](https://github.com/pulkitxc/europe-bike-sales-analytics) | Customer segmentation and purchase behavior analysis | Excel |
+| [SQL-Exploratory-Data-Analysis-Layoffs-Dataset](https://github.com/pulkitxc/SQL-Exploratory-Data-Analysis-Layoffs-Dataset) | Cleaning and exploratory analysis of a layoffs dataset | MySQL |
 
-## 🚧 Next case
+## On deck
 
 GTM + GA4 behavior-tracking project with a Looker Studio report.
 
 ---
 
-## 📬 Reach me
+## Tools I actually use
+
+`SQL (PostgreSQL, MySQL)` · `Python` · `Pandas` · `Power BI + DAX` · `Excel` · `BeautifulSoup / Selenium` · `REST APIs`
+
+Everything listed has a repo behind it. No filler.
+
+---
+
+## Let's talk
+
+I'm looking for a **paid data analytics internship** (remote / hybrid / on-site).
+
+If you have a messy dataset and a question nobody trusts the answer to, send it my way.
 
 [LinkedIn](https://www.linkedin.com/in/pulkit-shrivastava-8079a438b) · pulkitshrivastava98@gmail.com
-
-*If you have a messy dataset and a question nobody trusts the answer to, I'd like to work on it.*
