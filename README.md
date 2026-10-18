@@ -32,12 +32,6 @@ I've caught a "real" business dataset that turned out to be synthetic. The recei
 | [europe-bike-sales-analytics](https://github.com/pulkitxc/europe-bike-sales-analytics) | Customer segmentation and purchase behavior analysis | Excel |
 | [SQL-Exploratory-Data-Analysis-Layoffs-Dataset](https://github.com/pulkitxc/SQL-Exploratory-Data-Analysis-Layoffs-Dataset) | Cleaning and exploratory analysis of a layoffs dataset | MySQL |
 
-## On deck
-
-GTM + GA4 behavior-tracking project with a Looker Studio report.
-
----
-
 ## Tools I actually use
 
 `SQL (PostgreSQL, MySQL)` · `Python` · `Pandas` · `Power BI + DAX` · `Excel` · `BeautifulSoup / Selenium` · `REST APIs`
